@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>About Us | Aeromile</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <!-- Navbar -->
+  <header class="navbar">
+    <div class="logo">AEROMILE</div>
+    <nav class="nav-links">
+      <a href="index.html">Home</a>
+      <a href="about.html" >About</a>
+      <a href="ourTeam.html">Our Team</a>
+      <a href="services.html">Services</a>
+      <a href="process.html"class="active">Process</a>
+      <a href="contact.html">Contact</a>
+    </nav>
+    <div class="hamburger">
+      <span></span>
+      <span></span>
+      <span></span>
+    </div>
+  </header>
+<!-- How It Works / Process Page -->
+<section class="process-section">
+    <div class="process-header">
+      <h2>Seamless Urban Air Logistics & Mobility</h2>
+      <p>
+        Experience efficient and safe aerial transport with our step-by-step process for cargo and passenger delivery.
+      </p>
+    </div>
+  
+    <div class="process-steps">
+  
+      <!-- Step 1 -->
+      <div class="process-card">
+        <div class="step-number">1</div>
+        <h3>Book / Schedule</h3>
+        <p>Request cargo delivery or passenger flight via AeroMile.ai.</p>
+      </div>
+  
+      <!-- Step 2 -->
+      <div class="process-card">
+        <div class="step-number">2</div>
+        <h3>Smart Routing</h3>
+        <p>AI-powered route optimization reduces congestion and flight time.</p>
+      </div>
+  
+      <!-- Step 3 -->
+      <div class="process-card">
+        <div class="step-number">3</div>
+        <h3>Flight Execution</h3>
+        <p>Autonomous or pilot-assisted eVTOL delivery / transport.</p>
+      </div>
+  
+      <!-- Step 4 -->
+      <div class="process-card">
+        <div class="step-number">4</div>
+        <h3>Real-Time Tracking</h3>
+        <p>Monitor flight status and estimated arrival via the platform.</p>
+      </div>
+  
+      <!-- Step 5 -->
+      <div class="process-card">
+        <div class="step-number">5</div>
+        <h3>Safe Handover / Landing</h3>
+        <p>Goods delivered or passengers arrive safely at vertiports.</p>
+      </div>
+  
+    </div>
+  </section>
+
+  <!-- Footer -->
+<footer class="site-footer">
+    <div class="footer-container">
+  
+      <!-- Quick Links -->
+      <div class="footer-links">
+        <h4>Quick Links</h4>
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="services.html">Services</a></li>
+          <li><a href="ourTeam.html">Our Team</a></li>
+          <li><a href="contact.html">Contact</a></li>
+          <li><a href="process.html">Process</a></li>
+         
+        </ul>
+      </div>
+  
+      <!-- Social Media -->
+      <div class="footer-social">
+        <h4>Follow Us</h4>
+        <div class="social-icons">
+          <a href="#" target="_blank">LinkedIn</a>
+          <a href="#" target="_blank">Twitter</a>
+          <a href="#" target="_blank">YouTube</a>
+          <a href="#" target="_blank">X</a>
+        </div>
+      </div>
+  
+      <!-- Legal -->
+      <div class="footer-legal">
+        <p>&copy; 2025 AeroMile Ltd. All rights reserved.</p>
+        <a href="#">Privacy Policy</a> | <a href="#">Terms of Service</a>
+      </div>
+  
+    </div>
+  </footer>
+  <script>
+    // Select hamburger and nav links
+    const hamburger = document.querySelector('.hamburger');
+    const navLinks = document.querySelector('.nav-links');
+  
+    // Toggle menu on click
+    hamburger.addEventListener('click', () => {
+      navLinks.classList.toggle('show');
+    });
+  </script>
+</body>
+</html>
